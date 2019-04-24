@@ -1,0 +1,12 @@
+<config>
+    <gameName>stardewValley</gameName>
+    <gameID>com.chucklefish.stardewvalley</gameID>
+    <deviceAddress>192.168.0.12:5555</deviceAddress>
+    <twitchOAuth>oauth:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</twitchOAuth>
+    <twitchChannel>twitchplaysfeh</twitchChannel>
+    <websocketPort>10000</websocketPort>
+    <rebootPeriodMs>3600000</rebootPeriodMs>
+    <debug>false</debug>
+    <twitchClientID>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</twitchClientID>
+    <twitchExtensionSecret>xxxxxxxxxxxxxxxxxxx</twitchExtensionSecret>
+</config>

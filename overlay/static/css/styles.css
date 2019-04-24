@@ -1,0 +1,169 @@
+/* https://stackoverflow.com/questions/31830089/attach-div-to-the-right-of-another-div */
+
+html, body {
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-family: 'Karla', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+    background-image: url("");
+}
+
+#master {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#left {
+	width: 34.5%;
+	height: 100%;
+	display: inline-block;
+    float: left;
+}
+
+#middle {
+    width: 31.5%;
+	height: 100%;
+	display: inline-block;
+    float: left;
+    position: relative;
+}
+
+#right {
+    width: 34%;
+	height: 100%;
+	display: inline-block;
+    float: left;
+    position: relative;
+}
+
+#screenOverlay {
+    background-size: cover;
+    visibility: hidden;
+    position: absolute;
+}
+
+#helpTextPre {
+    font-size: 1.5vw;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+	position: relative;
+}
+
+.helpCommand {
+    color: yellow;
+    font-weight: bold;
+}
+
+.helpTitle {
+    color: red;
+}
+
+ul {
+    display: flex;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.msgChildDiv {
+    text-align: left;
+}
+
+#uptimeDiv {
+    top: 0%;
+    width: 100%;
+    height: 3%;
+    position: relative;
+}
+
+#floatingImage {
+    left: 75%;
+    top: 20%;
+    width: 15%;
+    position: absolute;
+    visibility: hidden;
+    color: black;
+    background-color: white;
+    border-style: dotted;
+}
+
+#floatingImage figcaption {
+    text-align: center;
+}
+
+#helpDiv {
+    left: 0%;
+    top: 0%;
+    height: 94%;
+	width: 100%;
+    position: relative;
+}
+
+#lastCommandDiv {
+    left: 0%;
+    top: 0%;
+    height: 4%;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+    visibility: hidden;
+}
+
+#wallpaperDiv {
+    left: 0%;
+    top: 0%;
+    height: 23%;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#chatArea {
+    left: 0%;
+    top: 0%;
+    height: 94%;
+    width: 100%;
+}
+
+#messageOfTheDayDiv {
+    left: 0%;
+    top: 0%;
+    height: 4%;
+    width: 100%;
+    background-color: none;
+    visibility: none;
+}
+
+#securityDiv {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 10%;
+    visibility: hidden;
+}
+
+.numberTags {
+    /*text-shadow: rgba(255,255,255,1) 4px 4px 4px;*/
+    text-shadow:
+    -1px -1px 0 rgb(255,255,0,0.8),
+    1px -1px 0 rgb(255,255,0,0.8),
+    -1px 1px 0 rgb(255,255,0,0.8),
+    1px 1px 0 rgb(255,255,0,0.8); 
+}

@@ -1,0 +1,2 @@
+To start you have to enable the <span class="helpCommand">Twitch Extension</span> to control the game (see the panel below).
+
