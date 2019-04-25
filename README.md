@@ -148,6 +148,10 @@ to make it compatible for the websocket server library:
 
 Place the three files including ``fullchain.pem``, ``privkey.pem`` and ``my-ca.der`` under the ``pem`` folder.
 
+To check the expirary date of the certificate:
+
+``openssl x509 -enddate -noout -in fullchain.pem``
+
 # Getting things to run - Dynamic OBS Overlay
 
 Simply run ``execute.sh`` and it will automatically host a web server for you.
