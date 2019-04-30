@@ -47,7 +47,7 @@ Hardware Setup (if not using an emulator):
 
 Server Setup:
 
-*  Backend code tested on Ubuntu 18.04 LTS and OpenJDK 11.0.2.
+*  Backend code tested on Ubuntu 18.04 LTS and OpenJDK 8 (JDK 11 is known to have websocket issues).
 
 Network Setup:
 
